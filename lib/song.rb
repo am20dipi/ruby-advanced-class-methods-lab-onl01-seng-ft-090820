@@ -10,10 +10,9 @@ class Song
     self.class.all << self
   end
   
-  def initialize
-    self
-    @@all << self #instantiates and saves the song, and it returns the new song that was created
-  end
+  ##self
+    #@@all << self #instantiates and saves the song, and it returns the new song that was created
+  #end
   
   
   def self.create #instantiates and saves the song, and it returns the new song that was created
